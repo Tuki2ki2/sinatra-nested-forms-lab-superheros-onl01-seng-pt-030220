@@ -18,6 +18,7 @@ post'/team' do
   end
   @heroes = Hero.all
   erb :team
+  binding.pry
 end
 
 end
